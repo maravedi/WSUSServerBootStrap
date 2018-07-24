@@ -1,0 +1,229 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">PSWindowsUpdate</S>
+      <Version N="Version">1.5.2.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">This module contain functions to manage Windows Update Client.</S>
+      <S N="Author">Michal Gajda</S>
+      <S N="CompanyName">MichalGajda</S>
+      <S N="Copyright">(c) 2011 Michal Gajda. All rights reserved.</S>
+      <DT N="PublishedDate">2016-02-26T08:30:46+01:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2016-08-05T20:19:46.8282123+02:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <URI N="ProjectUri">https://www.powershellgallery.com/packages/PSWindowsUpdate</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-WUOfflineSync</S>
+                <S>Get-WUHistory</S>
+                <S>Get-WUInstall</S>
+                <S>Get-WUInstallerStatus</S>
+                <S>Get-WUList</S>
+                <S>Get-WURebootStatus</S>
+                <S>Get-WUServiceManager</S>
+                <S>Get-WUUninstall</S>
+                <S>Hide-WUUpdate</S>
+                <S>Invoke-WUInstall</S>
+                <S>Remove-WUOfflineSync</S>
+                <S>Add-WUServiceManager</S>
+                <S>Remove-WUServiceManager</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-WUOfflineSync</S>
+                <S>Get-WUHistory</S>
+                <S>Get-WUInstall</S>
+                <S>Get-WUInstallerStatus</S>
+                <S>Get-WUList</S>
+                <S>Get-WURebootStatus</S>
+                <S>Get-WUServiceManager</S>
+                <S>Get-WUUninstall</S>
+                <S>Hide-WUUpdate</S>
+                <S>Invoke-WUInstall</S>
+                <S>Remove-WUOfflineSync</S>
+                <S>Add-WUServiceManager</S>
+                <S>Remove-WUServiceManager</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="9">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="10">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">Added new aliases Install-WindowsUpdate...</S>
+      <Obj N="Dependencies" RefId="11">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2/</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="12">
+        <TNRef RefId="3" />
+        <DCT>
+          <En>
+            <S N="Key">releaseNotes</S>
+            <S N="Value">Added new aliases Install-WindowsUpdate...</S>
+          </En>
+          <En>
+            <S N="Key">versionDownloadCount</S>
+            <S N="Value">11774</S>
+          </En>
+          <En>
+            <S N="Key">ItemType</S>
+            <S N="Value">Module</S>
+          </En>
+          <En>
+            <S N="Key">copyright</S>
+            <S N="Value">(c) 2011 Michal Gajda. All rights reserved.</S>
+          </En>
+          <En>
+            <S N="Key">CompanyName</S>
+            <S N="Value">Unknown</S>
+          </En>
+          <En>
+            <S N="Key">description</S>
+            <S N="Value">This module contain functions to manage Windows Update Client.</S>
+          </En>
+          <En>
+            <S N="Key">title</S>
+            <S N="Value">PSWindowsUpdate</S>
+          </En>
+          <En>
+            <S N="Key">created</S>
+            <S N="Value">26.02.2016 08:30:46 +01:00</S>
+          </En>
+          <En>
+            <S N="Key">published</S>
+            <S N="Value">26.02.2016 08:30:46 +01:00</S>
+          </En>
+          <En>
+            <S N="Key">developmentDependency</S>
+            <S N="Value">False</S>
+          </En>
+          <En>
+            <S N="Key">NormalizedVersion</S>
+            <S N="Value">1.5.2.2</S>
+          </En>
+          <En>
+            <S N="Key">downloadCount</S>
+            <S N="Value">14158</S>
+          </En>
+          <En>
+            <S N="Key">GUID</S>
+            <S N="Value">8ed488ad-7c77-4b33-b06e-32214925163b</S>
+          </En>
+          <En>
+            <S N="Key">tags</S>
+            <S N="Value">PSModule PSFunction_Add-WUOfflineSync PSCommand_Add-WUOfflineSync PSFunction_Get-WUHistory PSCommand_Get-WUHistory PSFunction_Get-WUInstall PSCommand_Get-WUInstall PSFunction_Get-WUInstallerStatus PSCommand_Get-WUInstallerStatus PSFunction_Get-WUList PSCommand_Get-WUList PSFunction_Get-WURebootStatus PSCommand_Get-WURebootStatus PSFunction_Get-WUServiceManager PSCommand_Get-WUServiceManager PSFunction_Get-WUUninstall PSCommand_Get-WUUninstall PSFunction_Hide-WUUpdate PSCommand_Hide-WUUpdate PSFunction_Invoke-WUInstall PSCommand_Invoke-WUInstall PSFunction_Remove-WUOfflineSync PSCommand_Remove-WUOfflineSync PSFunction_Add-WUServiceManager PSCommand_Add-WUServiceManager PSFunction_Remove-WUServiceManager PSCommand_Remove-WUServiceManager PSIncludes_Function</S>
+          </En>
+          <En>
+            <S N="Key">updated</S>
+            <S N="Value">2016-08-05T18:15:39Z</S>
+          </En>
+          <En>
+            <S N="Key">isLatestVersion</S>
+            <S N="Value">True</S>
+          </En>
+          <En>
+            <S N="Key">IsPrerelease</S>
+            <S N="Value">false</S>
+          </En>
+          <En>
+            <S N="Key">isAbsoluteLatestVersion</S>
+            <S N="Value">True</S>
+          </En>
+          <En>
+            <S N="Key">packageSize</S>
+            <S N="Value">51345</S>
+          </En>
+          <En>
+            <S N="Key">lastEdited</S>
+            <S N="Value">26.02.2016 08:32:18 +01:00</S>
+          </En>
+          <En>
+            <S N="Key">FileList</S>
+            <S N="Value">PSWindowsUpdate.nuspec|Add-WUOfflineSync.ps1|Add-WUServiceManager.ps1|Get-WUHistory.ps1|Get-WUInstall.ps1|Get-WUInstallerStatus.ps1|Get-WUList.ps1|Get-WURebootStatus.ps1|Get-WUServiceManager.ps1|Get-WUUninstall.ps1|Hide-WUUpdate.ps1|Invoke-WUInstall.ps1|PSGetModuleInfo.xml|PSWindowsUpdate.Format.ps1xml|PSWindowsUpdate.psd1|PSWindowsUpdate.psm1|Remove-WUOfflineSync.ps1|Remove-WUServiceManager.ps1|Update-WUModule.ps1</S>
+          </En>
+          <En>
+            <S N="Key">requireLicenseAcceptance</S>
+            <S N="Value">False</S>
+          </En>
+        </DCT>
+      </Obj>
+      <S N="InstalledLocation">C:\Program Files\WindowsPowerShell\Modules\PSWindowsUpdate\1.5.2.2</S>
+    </MS>
+  </Obj>
+</Objs>

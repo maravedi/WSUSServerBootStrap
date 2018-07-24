@@ -1,0 +1,3 @@
+WSUSServer-SetupScripts/Config.json
+WSUSServer-SetupScripts/include/maintenance_utils/*
+!WSUSServer-SetupScripts/include/maintenance_utils/.keep
